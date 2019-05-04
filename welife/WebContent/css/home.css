@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#build_right ul li a{
+	font-size: 13px;
+}
+#build_right ul li a:hover{
+	font-size: 14px;
+}
+a:hover{
+	cursor: pointer;
+}
+body{
+	/* background: #1f7994; */
+	background: #F1F1F1;
+}
+ul, li { list-style: none; }
+header { width: 100%; margin: auto; position: relative; background: url(../img/72242_w.png) no-repeat top right; padding-top: 30px; padding-bottom: 10px; overflow: hidden; animation-name: myfirst; animation-duration: 5s; animation-timing-function: linear; animation-delay: 2s; animation-iteration-count: infinite; animation-direction: alternate; animation-play-state: running; /* Firefox: */ -moz-animation-name: myfirst; -moz-animation-duration: 5s; -moz-animation-timing-function: linear; -moz-animation-delay: 2s; -moz-animation-iteration-count: infinite; -moz-animation-direction: alternate; -moz-animation-play-state: running; /* Safari and Chrome: */ -webkit-animation-name: myfirst; -webkit-animation-duration: 5s; -webkit-animation-timing-function: linear; -webkit-animation-delay: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: alternate; -webkit-animation-play-state: running; /* Opera: */ -o-animation-name: myfirst; -o-animation-duration: 5s; -o-animation-timing-function: linear; -o-animation-delay: 2s; -o-animation-iteration-count: infinite; -o-animation-direction: alternate; -o-animation-play-state: running; }
+@keyframes myfirst { 0% {
+background:url(../img/72242_w.png) no-repeat top right top;
+}
+ 100% {
+background:url(../img/72242_w.png) no-repeat top right 100px;
+}
+}
+ @-moz-keyframes myfirst /* Firefox */ { 0% {
+background:url(../img/72242_w.png) no-repeat top right top;
+}
+ 100% {
+background:url(../img/72242_w.png) no-repeat top right 100px;
+}
+}
+ @-webkit-keyframes myfirst /* Safari and Chrome */ { 0% {
+background:url(../img/72242_w.png) no-repeat top right top;
+}
+ 100% {
+background:url(../img/72242_w.png) no-repeat top right 100px;
+}
+}
+ @-o-keyframes myfirst /* Opera */ { 0% {
+background:url(../img/72242_w.png) no-repeat top right top;
+}
+ 100% {
+background:url(../img/72242_w.png) no-repeat top right 100px;
+}
+}
+#all{
+	width: 88%;/* 总屏幕的88% */
+	margin: 0 auto;
+}
+#tabSize {
+	font-size: 11px;
+	width: 143%;
+}
+#myCarousel{
+	width: 60%;
+	float: left;
+	margin-top: 28px;
+	margin-right: 2%;
+	backgroun-color: red;
+}
+
+.myImg{
+	width: 100%;
+}
+.myImg img{
+	width: 100%;
+}
+#myTab,#myTabContent{
+	width: 70%; 
+}
+/*图片展示*/
+.imgSize{width: 138px;height: 78px;}
+.pics {overflow: hidden;width: 38%;}
+.pics ul li {display: block;width: 100%;overflow: hidden; border-radius: 5px; position: relative;margin: 5px auto }
+.pics ul li img {display: block;width: 100%;heigth: 33%;overflow: hidden; border-radius: 5px; position: relative;margin: 5px auto }
+.pics ul li span {font-size:11px; position: absolute; background: rgba(0,0,0,0.3); color: #FFF; bottom: 5%; left: 0; right: 0; display: block; padding: 0 15px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;line-height: 22px;}
+.pics ul li img:hover { transform: scale(1.05,1.05);transition: 1s;}
+
+.pics_float_left{
+	float: left;
+	width:30%;
+}
+#build_right {
+	float: left;
+	margin-left: 2%;
+	margin-top: 13px;
+	width: 68%;
+}
+.span_1{
+	margin: 10px auto;
+	float: left;
+}
+.panel_size{
+	width: 90%;
+	float: left;
+}
+.my_label{
+	float: left;
+	margin-right: 5px;
+	font-size: 13px;
+}
